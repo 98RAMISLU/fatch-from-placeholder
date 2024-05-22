@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fatch from Placeholder</title>
+    <style> 
+    .post{
+        background-color: rgba(255, 127, 202, 0.342);
+        text-align: center;
+        padding: 10px 128px;
+        margin:10px;
+        border-radius: 20px;
+    }
+    .id{
+        background-color: rgba(0, 0, 255, 0.314);
+        padding: 10px;
+    }
+    </style>  
+    </head>
+  
+  <body>
+    <header>
+      <h1>Posts from placeholder</h1>
+    </header>
+    <main> 
+        <section> 
+            <h3>All posts are here</h3>
+            <button onClick="loadPost()">show posts</button>
+            <div id="posts-container"> 
+
+            </div>
+
+        </section>
+    </main>
+    <script src="fetch.js"></script>
+  </body>
+</html>
